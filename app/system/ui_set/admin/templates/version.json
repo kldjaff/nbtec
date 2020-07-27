@@ -1,0 +1,12 @@
+{
+    "name": "templates",
+    "version": "1.0",
+    "updatetime": "2018.09.28",
+    "file_version": {
+        "app\/system\/ui_set\/admin\/templates\/cache\/": {
+            "pageset.css": "831d468e5b753e1e06c84b43f13e21e1",
+            "pageset.js": "b2beb644aed387adf682927a53a01dfb"
+        }
+    },
+    "update_time": "2020.07.02"
+}

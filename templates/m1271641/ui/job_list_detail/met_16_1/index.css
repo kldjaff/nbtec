@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* 招聘详情 */
+$uicss{background: $bodybgcolor$;background:$bgcolor$;padding:30px 0;}
+$uicss .card{padding: 30px;}
+$uicss .card-metas{font-size: 12px;color: $desccolor$;}
+$uicss .card-title{color:$firstcolor$;color:$titlecolor$;}
+$uicss .card-body-footer a{border-radius: 3px;background:transparent;color:$thirdcolor$;color:$hovercolor$;border-color:$thirdcolor$;border-color:$hovercolor$; }
+$uicss .card-body-footer a:hover,$uicss .card-body-footer .btn-outline.btn-primary:focus{background:$thirdcolor$;background:$hovercolor$;border-color: $thirdcolor$;border-color: $hovercolor$; color:$txtcolor$;}
+$uicss .modal-primary .modal-header *{color: $txtcolor$;}
+$uicss .modal-header{
+    background:$thirdcolor$;background:$hovercolor$;
+}
+$uicss .modal-content{background-color: $m_bgcolor$;}
+$uicss select.form-control{color: $formcolor$;}
+$uicss .form-control{border-color: $bordercolor$;color: $i_color$;background-color: $i_bgcolor$;}
+$uicss .form-group input:-moz-placeholder { color: $formcolor$ !important; }
+$uicss .form-group input::-moz-placeholder { color: $formcolor$ !important; }
+$uicss .form-group input:-ms-input-placeholder { color: $formcolor$ !important; }
+$uicss .form-group input::-webkit-input-placeholder {  color: $formcolor$ !important; }
+$uicss .form-group textarea:-moz-placeholder {   /* Mozilla Firefox 4 to 18 */
+color: $formcolor$ !important; }
+$uicss .form-group textarea::-moz-placeholder {  /* Mozilla Firefox 19+ */
+color: $formcolor$ !important; }
+$uicss .form-group textarea:-ms-input-placeholder { color: $formcolor$ !important; }
+$uicss .form-group textarea::-webkit-input-placeholder {color: $formcolor$ !important; }
+$uicss hr{border-top: 1px solid $linecolor$;}
+$uicss .card{background-color: $cbgcolor$;}
+$uicss .radio-primary input[type=radio]:checked+label::before{
+    border-color: $thirdcolor$;border-color: $hovercolor$;
+}
+$uicss label{color: $l_color$;}
+$uicss input:focus{
+border-color: $thirdcolor$;border-color: $hovercolor$;
+}
+$uicss .btn-default.focus,$uicss  .btn-default:focus,$uicss  .btn-default:hover{border-color: $hoverout_bgcolor$; background-color: $hoverout_bgcolor$;color: $hoverout_txtcolor$;}
+$uicss .btn-default{border-color: $out_bgcolor$;background-color: $out_bgcolor$;color: $out_txtcolor$;}
+$uicss textarea:focus{
+    border-color: $thirdcolor$;border-color: $hovercolor$;
+}
+$uicss .btn-file{
+        border-color: $thirdcolor$;
+    background-color: $thirdcolor$;
+    border-color: $hovercolor$;
+    background-color: $hovercolor$;
+}
+$uicss .modal-footer .btn-primary{
+            border-color: $thirdcolor$;
+    background-color: $thirdcolor$;
+    border-color: $hovercolor$;
+    background-color: $hovercolor$;
+    
+}
+$uicss .btn-primary,$uicss .btn-primary[disabled]:hover,$uicss .btn-primary:focus{color: $txtcolor$;}
+$uicss .checkbox-custom input[type=radio]:focus+label::before, .checkbox-custom input[type=checkbox]:focus+label::before { outline: 5px auto $thirdcolor$;
+outline: 5px auto $hovercolor$;  
+}
+$uicss .radio-custom input[type=radio]:focus+label::before{
+    outline: 5px auto $thirdcolor$;
+    outline: 5px auto $hovercolor$; 
+}
+$uicss .modal .btn-primary{border-color: $thirdcolor$;
+    background-color: $thirdcolor$;border-color: $hovercolor$;
+    background-color: $hovercolor$;}
+
+$uicss .npm{
+        padding: 0px!important;
+    margin: 0px!important;
+    width: 100%!important;
+}

@@ -1,0 +1,40 @@
+$uicss.met-download {padding: 20px 0; background:$bodybgcolor$; border-top: 1px solid #f0f2f5; }
+$uicss.met-download{background: $bgcolor$; }
+$uicss.met-download h1 {margin: 0px; font-size: 32px; margin-bottom: 5px; font-weight: 300; color:$firstcolor$; color:$titlecolor$; }
+$uicss.met-download $uicss.met-download-body {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+$uicss.met-download .details-title, $uicss.met-download .download-paralist {
+    padding: 30px;
+   background-color: $cbgcolor$;
+}
+$uicss .met-editor,$uicss .tags,$uicss .met-page{background-color: $cbgcolor$;}
+$uicss.met-download .details-title {padding-bottom: 0px; }
+$uicss .download-paralist dt{color: $paranamecolor$;}
+$uicss .download-paralist dd{color: $paracolor$ !important;}
+$uicss .border-bottom1{border-bottom-color:$clinecolor$;}
+$uicss .border-top1{border-top-color:$clinecolor$;}
+$uicss .met-page .pagination li a{color: $pagertxtcolor$;border-color: $pagerlinecolor$;background-color: $pagertxtbg$;}
+$uicss .met-page .pagination li a:hover{background-color: $pagertxtbghover$;border-color: $pagertxtbghover$;color:$thirdcolor$;color: $pagertxthover$;}
+$uicss .met-page .p-t-30{padding-top:0px !important;}
+$uicss .met-editor {padding: 30px; width: 100%; max-width: 100%; font-size: 18px; font-weight: 300; line-height: 1.8; word-wrap: break-word; }
+$uicss.met-download .info {padding-bottom: 20px; font-size: 16px; color: $secondcolor$;color:$desccolor$; }
+$uicss.met-download .download-paralist .btn{border-color:$thirdcolor$;color:$thirdcolor$;border-color:$hovercolor$;color:$hovercolor$;}
+$uicss.met-download .download-paralist .btn:hover{color: #fff;background-color: $thirdcolor$;background-color: $hovercolor$;border-color: $thirdcolor$;border-color:$hovercolor$;}
+$uicss .tags{font-size:14px;color:#666;padding:0 30px 30px;display: block;text-align:left;}
+$uicss .tags a{color:#666;padding:5px;}
+$uicss .tags a:hover{color:$thirdcolor$;color:$hovercolor$;}
+@media (min-width:768px){
+   $uicss.met-download.right .met-download-list{float: right;}
+   $uicss.met-download.right .met-sidebar {margin-left: 0px;margin-right: 30px;}
+}
+@media (min-width:768px) and (max-width:991px){
+	$uicss.met-download.right .met-sidebar {margin-left: 0px;margin-right: 10px;}
+}
+@media (max-width:767px){
+	$uicss.met-download .details-title, $uicss.met-download .download-paralist{padding: 15px;}
+	$uicss .met-editor{padding: 15px;}
+}

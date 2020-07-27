@@ -1,0 +1,95 @@
+$uicss {
+  background-position: center 0 !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  padding:$padding$px 0;
+}
+$uicss h3 {
+  text-align: center;
+  color: $titlecolor$;
+}
+$uicss p.desc {
+  color: $secondcolor$;
+  color:$desccolor$;
+  text-align: center;
+}
+$uicss .list-g {
+  margin-top: 50px;
+  overflow: hidden;
+}
+$uicss i{width: 30px; height: 30px; background: $thirdcolor$;background: $hovercolor$; text-align: center; font-size: 14px; line-height: 30px; color: #fff;webkit-border-radius: 0 50% 50%; -moz-border-radius: 0 50% 50%; -o-border-radius: 0 50% 50%; -ms-border-radius: 0 50% 50%; border-radius: 0 50% 50%;}
+@media (max-width: 991px) {
+  $uicss{padding:$padding_p$px 0;}
+}
+@media (max-width: 767px) {
+  $uicss{padding:$padding_m$px 0;background-attachment: scroll!important;
+}
+  $uicss .list-g {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 488px) {
+  $uicss .list-g {
+    margin-top: 30px;
+  }
+}
+$uicss .list-g ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid;
+  border-color: $linecolor$;
+}
+$uicss .list-g ul:first-child {
+  border: 0;
+}
+$uicss .list-g ul li {
+  width: 25%;
+  float: left;
+  list-style: none;
+  padding: 20px;
+  border-left: 1px solid;
+  border-color: $linecolor$;
+  position: relative;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+$uicss .list-g ul li:first-child {
+  border: 0;
+}
+$uicss .list-g ul li .met-more {
+  float: left;
+  margin-right: 10px;
+}
+$uicss .list-g ul li a{float: left;width: calc(100% - 50px);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;font-size: 16px;
+  line-height: 30px;
+  color: $titlecolor$;
+  position: relative;}
+$uicss .list-g ul li span {
+  
+}
+@media (max-width: 767px) {
+  $uicss .list-g ul {
+    display: block;
+    border: 0;
+  }
+  $uicss .list-g ul li {
+    width: 50%;
+    display: block;
+    padding: 10px;
+    border: 0;
+  }
+  $uicss .list-g ul li:nth-child(3) {
+    clear: both;
+  }
+}
+@media (max-width: 488px) {
+  $uicss .list-g ul li {
+    width: 100%;
+  }
+}

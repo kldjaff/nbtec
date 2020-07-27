@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* 面包屑 */
+$uicss.met-crumbs{background:$bodybgcolor$;background:$bgcolor$;}
+$uicss.met-crumbs .breadcrumb .dropdown-menu{top:26px;}
+$uicss .breadcrumb-item a{color: $thirdcolor$;color:$hovercolor$;}
+$uicss .breadcrumb-item a:hover{text-decoration: underline;}
+$uicss .breadcrumb-item+.breadcrumb-item::before{color: $thirdcolor$;color:$hovercolor$;}

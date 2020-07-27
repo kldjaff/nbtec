@@ -1,0 +1,15 @@
+{
+    "css":[
+        "{$metui_url3}plugin/slick/slick.min.css",
+        "{$metui_url3}pluginslick/slick-theme.min.css",
+        "ui/css/img/revslider/css/settings.css",
+        "ui/css/img/revslider/css/revolution-slider.css",
+    	"ui/css/index.css"
+    ],
+    "js":[
+        "{$metui_url3}plugin/slick/slick.min.js",
+        "ui/js/img/revslider/js/jquery.themepunch.tools.min.js",
+        "ui/js/img/revslider/js/jquery.themepunch.revolution.min.js",
+       "ui/js/index.js"
+    ]
+}
