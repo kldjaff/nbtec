@@ -15,3 +15,12 @@ then
 else
     docker pull mysql:5.6;
 fi
+
+if [ $(docker ps -a | grep -c nbtec_db) == 1  ];
+then
+    docker stop nbtec_db;
+    docker rm nbtec_db;
+fi
+
+docker run --name nbtec_db -e MYSQL_ROOT_PASSWORD=good -p 3306:3306 -d mysql:5.6;
+
